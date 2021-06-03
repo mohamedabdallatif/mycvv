@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+    margin: 0;
+}
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+ul.topnav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #04AA6D;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+  .first{
+      text-align: center;
+  }
+  .second{
+      text-align: center;
+  }
+  .three,.five,.six,h3{
+      text-align: center;
+  }
+  ul.topnav{
+      position: static;
+  }
+}
+.first{
+    background-color: beige;
+    height: 200px;
+    font-size: 20px;
+}
+h3{
+    text-decoration: underline;
+}
+.second{
+    background-color: cornsilk;
+}
+.three{
+    background-color: cornsilk;
+}
+.four{
+    overflow-x: auto;
+}
+.fimg{
+    float: right;
+    width: 170px;
+    height: 200px;
+}
+table
+{
+    border: 1px dashed black;
+    background-color: cornsilk;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid #E88741;
+    }
+    .five{
+        background-color: cornsilk;
+    }
+    .six{
+        background-color: cornsilk;
+    }
+    body{
+        background-image: linear-gradient(red,yellow);
+    }
+        </style>
+    </head>
+    <body>
+        <ul class="topnav">
+            <li><a class="active" href="#">portfolio</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Contact me</a></li>
+            <li class="right"><a href="#">About me</a></li>
+          </ul>
+          <div class="first">
+            <img src="imge.jfif" alt="any image" class="fimg">
+
+              <h3>About me</h3>
+            <p>
+                  <ul>
+                      <li>Name:Mohamed Abdallatif Abdelhalim</li>
+                      <li>Age:20</li>
+                      <li>Location:Cairo</li>
+                      <li>phone:012345678</li>
+                  </ul>
+                  </p>
+          </div>
+          <div class="second">
+            <h3>CV Highlights</h3>
+            <p>
+            <ul>
+                <li>Currently going through CS253 – Web Application Engineering and CS61A – Structure & Interpretation of Computer Programs</li>
+                <li>Learnt basic Python, JavaScript, HTML, CSS on Codecademy.com.</li>
+                <li>An independent, dedicated, efficient person. These attributes are proved through the series of courses I have taken or I am taking as of now independently through online platforms.</li>
+                <li>Good Communication Skills, Presentation Skills, attitude towards leadership, authorisation and delegation, conflict resolution and negotiation and a very good team worker.</li></ul></p>
+                </div>
+        <div class="three">
+            <h3>Professional Experience</h3>
+            <h4>Wingify Software Pvt Ltd</h4>
+            <p><strong>Support Engineer (Technical Support)</strong></p>
+            <p>Job Responsbilities</p>
+            <p>
+            <ul>
+                <li>Answer customer queries over email / ticketing system</li>
+                <li>Interact with our engineering team to get software issues and bugs resolved</li>
+                <li>Occasionally interact with customers over Skype or telephone</li>
+                <li>Contribute ideas to the team on how customers can be delighted</li></ul>
+            </p>
+        </div>
+        
+            <h3>Educational Qualifications</h3>
+            <div class="four">
+            <table>
+                <tr id="heading">
+                    <td>Qualification</td>
+                    <td>Board</td>
+                    <td>Percentage / Grades</td>
+                    <td>Year</td>
+                </tr>
+                <tr>
+                    <td>S.S.C</td>
+                    <td>G.S.E.B India</td>
+                    <td>75.57%</td>
+                    <td>2004</td>
+                </tr>
+                <tr>
+                    <td>H.S.C (Science Stream)</td>
+                    <td>G.S.E.B India</td>
+                    <td>72.40%</td>
+                    <td>2006</td>
+                </tr>
+                <tr>
+                    <td>GDCA (Grad. Dipl in Computer Applications)</td>
+                    <td>NIE (National Institute Of Engineering), Mumbai, India</td>
+                    <td>A Grade</td>
+                    <td>2008</td>
+                </tr>
+                <tr>
+                    <td>B.Sc. (Hons) - Applied Accounting</td>
+                    <td>Oxford Brookes University</td>
+                    <td>2:1 – Upper Second Class Honours</td>
+                    <td>2012</td>
+                </tr>
+                <tr>
+                    <td>Chartered Accounting - ACCA</td>
+                    <td>ACCA Glasgow, UK</td>
+                    <td>Passed (1st Attempt)</td>
+                    <td>2013</td>
+                </tr>
+            </table>
+        </div>
+        <div class="five">
+            <h3>Independent Courses</h3>
+            <p>
+            <ul>
+                <li>
+                <span>HTML & CSS for Beginners – Web Fundamentals</span> – Codecademy.com</li>
+                <li>
+                <span >Python – Fundamentals and Dynamic Programming </span> - Codecademy.com</li>
+                <li>
+                <span>JavaScript – Programming Basics, JS Apps and Build Games </span> - Codecademy.com</li>
+                <li>
+                <span>CS101: Introduction to Computer Science - Building a Web Crawler</span> - Udacity.com</li>
+                <li>
+                <span>CS50x – Introduction to Computer Science I</span> – edX.org & Harvard University</li>
+                <li>
+                <span>Calculus One</span> - Ohio State University & Coursera.org</li>
+                <li>
+                <span>Introduction to Finance</span> - Coursera.org & University of Michigan</li>
+            </ul>
+        </div>
+        <div class="six">
+            <h3>Other Information</h3>
+            <p>
+            <ul>
+                <li>
+                <span>Expected Salary:</span>As per company standards</li>
+                <li>
+                <span>Area of Interest:</span>Software Development, Programming, Start-ups, Coding, App Development, Technical Support, Support Engineer, Customer Happiness, Client service, Investment Banking, Corporate Finance, Hedge Funds, Mergers & Acquisitions, Analyst, Equity Research, Business Analysis</li>
+                <li>
+                <span>Joining Date:</span>Immediate</li></ul>
+            </p>
+        </div>
+    </body>
+</html>
